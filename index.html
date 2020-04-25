@@ -69,28 +69,42 @@
     <div data-aos="zoom-in-left" class="screen4" id="contact">
       <h3>Contact Us!</h3>
       <form action="">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+        <div class = "names">
+          <div class = "fn">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+          </div>
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+          <div class = "ln">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+          </div>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="example@sample.com">
+          <div class = "em">       
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="example@sample.com">
+          </div>
 
-        <label for="subject">Subject</label>
+          <div>
+            <label for="subject">Message</label>
+          </div>
+
+        </div>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
         <input type="submit" value="Submit">
       </form>
     </div>
+
     <!--Footer-->
     <footer class="">
       <!--Copyright line (left)-->
-      <p class="">© 2020 FriendlyCoders 2020. All rights reserved. </a></p>
+      <p class="copyright">© 2020 FriendlyCoders 2020. All rights reserved.</p>
       <!-- Follow us (right) (possibly need another div around this)-->
-      <p class="">Follow Us!</p>
-      <a href = "" target = "_blank"> <i class="fab fa-instagram-square"></i></a>
+      <div class="socials">
+        <p class="followmsg">Follow Us!</p>
+        <a href = "" target = "_blank"> <i class="fab fa-instagram-square"></i></a>
+      </div>
     </footer>
 
     <script>
