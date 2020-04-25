@@ -115,12 +115,46 @@ h1 {
 }
 
 .screen3 {
-    height: 50rem;
+    height: 48rem;
     background-color: #8B62FF;
+    display: block;
 }
 
 h2 {
-    font-size: 38px;
-    padding: 5rem 10rem;
+    font-size: 44px;
+    padding: 8rem 10rem;
     font-weight: 80;
+    height: 45px;
+}
+
+.sites {
+    display: flex;
+    justify-content: center;
+}
+
+.site {
+    width: 40%;
+}
+
+.ss {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    width: 25rem;
+    height: 17rem;
+}
+
+.ssdesc {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.screen4 {
+    height: 38rem;
+}
+
+footer {
+    background-color: #A5A5A5;
+    height: 10rem;
 }
