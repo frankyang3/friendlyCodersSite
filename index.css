@@ -108,8 +108,8 @@ h1 {
 .desc {
     color: black;
     font-size: 22px;
-    width: 40%;
-    padding: 5rem;
+    width: 70%;
+    padding: 3.4rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -230,6 +230,7 @@ input[type=text], select {
   textarea {
     resize: none;
     width: 100%;
+    height: 7rem;
   }
 
   .names {
