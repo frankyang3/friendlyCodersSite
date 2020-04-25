@@ -22,6 +22,11 @@ header {
 header a {
     color: white;
     font-size: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: purple;
 }
 
 li, a, button {
@@ -35,14 +40,6 @@ li, a, button {
 .navlinks li {
     display: inline-block;
     padding: 0px 20px;
-}
-
-.navlinks li a {
-    transition: all 0.3s ease 0s;
-}
-
-.navlinks li a:hover {
-    color: purple;
 }
 
 .screen1 {
