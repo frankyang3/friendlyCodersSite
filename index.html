@@ -4,12 +4,15 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!--Font stuff here-->
     <title>Friendly Coders - Make your website!</title>
   </head>
   <body>
     <!--NavBar-->
-    <header>
+    <header data-aos="fade-left">
       <a href = "#"><i class="fas fa-home"></i></a>
       <nav>
         <ul class="navlinks">
@@ -19,30 +22,31 @@
         </ul>
       </nav>
     </header>
-    
+
     <!--First block (Home)-->
-    <div class="screen1" id="home">
+
+
+    <div data-aos="flip-up" class="screen1" id="home">
       <h1 class="">We are your friendly neighbourhood coders</h1>
       <button class="">Make a Website!</button>    
     </div>
 
     <!--First block (About)-->
-    <div class="screen2" id="about">
-      
+    <div data-aos="" class="screen2" id="about">      
         
       <!--RT-->
-      <div class="">
+      <div data-aos="fade-left" class="">
         <img class="avatar" src="img_avatar.png" alt="Avatar">
         <p class="">Lorem Ipsum Dolor Lorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem Ipsum Dolor</p>
       </div>
       <!--FY-->
-      <div class="">
+      <div data-aos="fade-right" class="">
         <img class="avatar" src="img_avatar.png" alt="Avatar">
         <p class="">Lorem Ipsum Dolor Lorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem Ipsum Dolor</p>
       </div>
     </div>
     <!--Second block(Projects)-->
-    <div class="" id ="projects" >
+    <div data-aos="flip-down"class="" id ="projects" >
       <h2 class="">We Make Websites.</h2>
 
       <!--Big div (contains both columns-->
@@ -61,7 +65,7 @@
 
     </div>
     <!--Third block(Contact)-->
-    <div class="" id="contact">
+    <div data-aos="zoom-in-left" class="" id="contact">
       <form action="">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your first name...">
@@ -86,5 +90,11 @@
       <p class="">Follow Us!</p>
       <a href = "" target = "_blank"> <i class="fab fa-instagram-square"></i></a>
     </footer>
+
+    <script>
+      //init AOS
+        AOS.init();
+    </script>
+
   </body>
 </html>
