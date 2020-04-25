@@ -3,6 +3,15 @@
   <head>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <!--Font stuff here-->
+    <style>
+
+      .avatar {
+        border-radius: 50%;
+      }
+    </style>
+
     <title>Friendly Coders - Make your website!</title>
   </head>
   <body>
@@ -15,21 +24,71 @@
         <li><a href = "#contact">CONTACT</a></li>
       </ul>
     </nav>
+
+    <!--Header (Home)-->
+    <header class="" id="home">
+      <h1 class="">We are your friendly neighbourhood coders</h1>
+      <button class="">Make a Website!</button>
+    </header>
     <!--First block (About)-->
     <div class="" id="about">
       
+        
+      <!--RT-->
+      <div class="">
+        <img class="avatar" src="img_avatar.png" alt="Avatar">
+        <p class="">Lorem Ipsum Dolor Lorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem Ipsum Dolor</p>
+      </div>
+      <!--FY-->
+      <div class="">
+        <img class="avatar" src="img_avatar.png" alt="Avatar">
+        <p class="">Lorem Ipsum Dolor Lorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem Ipsum Dolor</p>
+      </div>
     </div>
     <!--Second block(Projects)-->
     <div class="" id ="projects" >
+      <h2 class="">We Make Websites.</h2>
+
+      <!--Big div (contains both columns-->
+      <div class="">
+        <!-- Col 1-->
+        <div class="">
+          <img class="" src="" alt="Noice Site1">
+          <p class="">Url:</p> <!--TODO add link-->
+        </div>
+        <!-- Col 2-->
+        <div class="">
+          <img class="" src="" alt="Noice Site1">
+          <p class="">Url:</p> <!--TODO add link-->
+        </div>
+      </div>
 
     </div>
     <!--Third block(Contact)-->
     <div class="" id="contact">
+      <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name...">
 
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+        <label for="email">Last Name</label>
+        <input type="email" id="email" name="email" placeholder="example@sample.com">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
     </div>
     <!--Footer-->
-    <div class="">
-
-    </div>
+    <footer class="">
+      <!--Copyright line (left)-->
+      <p class="">© 2020 FriendlyCoders 2020. All rights reserved. </a></p>
+      <!-- Follow us (right) (possibly need another div around this)-->
+      <p class="">Follow Us!</p>
+      <a href = "" target = "_blank"> <i class="fab fa-instagram-square"></i></a>
+    </footer>
   </body>
 </html>
