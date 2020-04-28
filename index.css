@@ -5,6 +5,28 @@
     font-family: "Roboto", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #000;
+    background-color: #f4f4f4;
+    transition: background-color 0.8s ease;
+}
+
+.color-grey {
+    background-color: gray;
+}
+
+.color-white {
+    background-color: white;
+}
+
+.color-purple {
+    background-color: #8B62FF;
+}
+
 .avatar {
     border-radius: 50%;
     width: 24rem;
@@ -20,13 +42,22 @@ header {
     padding: 20px 5%;
     height: 5rem;
     width: 100%;
-    background-color: #4FBFFF;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.color-nav {
+    background-color: black;
+}
+
+.color-navwords {
+    color: #f4f4f4;
 }
 
 header a {
-    color: white;
+    color: black;
     font-size: 20px;
-    transition: all 0.3s ease 0s;
+    transition: color 0.3s ease 0s;
 }
 
 header a:hover {
@@ -48,39 +79,49 @@ li, a, button {
 
 .screen1 {
     display: block;
-    height: 40rem;
+    height: 100vh;
     width: 100%;
-    background-color: #8B62FF;
 }
 
-h1 {
-    color: white;
-    font-weight: 100;
-    font-size: 46px;
+.screen1 h1 {
+    color: black;
+    font-weight: 140;
+    font-size: 60px;
     text-align: center;
-    padding: 11rem 0rem;
+    padding: 25vh 0vh 0vh 1vh;
     width: 60%;
     justify-self: center;
     margin-left: auto;
     margin-right: auto;
 }
 
+.screen1 h2 {
+    color: black;
+    font-weight: 30;
+    font-size: 24px;
+    text-align: center;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6vh 0vh 0vh 0vh;
+}
+
 .screen1 button {
     position: absolute;
     margin: 0;
-    top: 68%;
-    left: 50%;
+    top: 70%;
+    left: 49.9%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     padding: 1.2rem 2.2rem;
-    background-color: white;
+    background-color: purple;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     align-self: center;
     font-size: 26px;
-    color: #8B62FF;
+    color: white;
 }
 
 .screen1 button:hover {
@@ -91,7 +132,6 @@ h1 {
     display: flex;
     width: 100%;
     height: 56rem;
-    background-color: #A5A5A5;
 }
 
 .avatar {
@@ -116,11 +156,10 @@ h1 {
 
 .screen3 {
     height: 48rem;
-    background-color: #8B62FF;
     display: block;
 }
 
-h2 {
+.screen3 h2 {
     font-size: 44px;
     padding: 8rem 10rem;
     font-weight: 80;
@@ -155,7 +194,7 @@ h2 {
     display:block;
 }
 
-h3 {
+.screen4 h3 {
     font-size: 34px;
     padding: 5.6rem 0rem 0rem 4rem;
 }
@@ -208,9 +247,9 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -221,19 +260,19 @@ input[type=text], select {
     cursor: pointer;
     font-size: 14px;
     font-weight: 10;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
+}
 
-  textarea {
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea {
     resize: none;
     width: 100%;
     height: 7rem;
-  }
+}
 
-  .names {
+.names {
     padding-bottom: 10px;
-  }
+}
   
